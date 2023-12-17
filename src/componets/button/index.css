@@ -1,0 +1,48 @@
+.button {
+    cursor: pointer;
+    padding-left: 58px;
+    padding-right: 59px;
+    padding-top: 24px;
+    padding-bottom: 23px;
+    border: none;
+    width: 270px;
+    border-radius: 35px;
+    opacity: 0.9;
+    background: linear-gradient(90deg, #246ec3 0%, #0ee2e2 100%);
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: all 0.5s ease;
+    position: relative; 
+    overflow: hidden; 
+}
+.button:hover{
+    background: linear-gradient(90deg, #4f81ba 0%, #75d6d6 100%);
+
+}
+.button::before {
+    content: ''; 
+    position: absolute; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, #246ec3 0%, #0ee2e2 100%);
+    z-index: -1; 
+    transform: scaleX(0); 
+    transform-origin: 0 50%; 
+    transition: transform 0.5s ease; 
+}
+.button:hover::before {
+    transform: scaleX(1); /* Hover holati: elementni yuqoriga ko'rsatadi */
+}
+.big {
+    padding-left: 71px;
+    padding-right: 74px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 24px;
+    font-weight: 500;
+}

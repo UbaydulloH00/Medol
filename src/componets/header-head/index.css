@@ -1,0 +1,60 @@
+.header-head-wrapper {
+    background-image: url('../img/bac-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightgray(50%);
+    padding-top: 70px;
+    margin-top: 68px;
+    padding-bottom: 100px;
+}
+.head-card-all{
+    display: flex;
+    justify-content: space-between;
+}
+.head-card-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 388px;
+    height: 491px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.05);
+}
+
+.head-card-item img {
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    margin-bottom: 22px;
+}
+
+.head-card-item h1 {
+    margin-bottom: 14px;
+    margin-top: 25px;
+    text-align: center;
+    color: #0D4C93;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.3px;
+}
+
+.head-card-item p {
+    padding-left: 43px;
+    padding-right: 40px;
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+.head-card-item button{
+    position: absolute;
+    top: 460px;
+
+}

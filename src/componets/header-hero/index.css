@@ -1,0 +1,181 @@
+.hedaer__wrapper {
+    background-image: url('../img/blur-hospital.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightgray(50%);
+    padding-bottom: 100px;
+}
+
+.header__nav-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.header-logo {
+    cursor: pointer;
+}
+
+.header-search {
+    cursor: pointer;
+}
+
+.header__nav-location,
+.header__nav-call {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.location-icon,
+.call-icon,
+.header-search {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 12px;
+}
+
+.location-text,
+.location-text {
+    color: #5A5A5A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.header-f {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    background: #FFF;
+    padding-left: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    gap: 10px;
+}
+
+.f-text {
+    color: #0D4C93;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lan {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 1px 10px;
+}
+
+.flag img {
+    border-radius: 50%;
+}
+
+.menu-wrapper {
+    margin-top: 50px;
+}
+
+.menu-item {
+    display: flex;
+    gap: 2px;
+}
+
+.menu-item>div {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    padding-left: 45px;
+    padding-right: 45px;
+    background: #fff;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.menu-item>div:first-child {
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px;
+    padding-left: 50px;
+
+}
+
+.menu-item>div:last-child {
+    border-bottom-right-radius: 35px;
+    border-top-right-radius: 35px;
+    padding-right: 50px;
+
+}
+
+.menu-item div h2 {
+    text-align: center;
+    color: #0D4C93;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.menu-item div:hover h2 {
+    color: #00C9C9;
+}
+
+.menu-item div:hover .svg {
+    display: block;
+}
+
+.menu-item>div .svg {
+    display: none;
+    position: absolute;
+    left: 150px;
+    top: 5px;
+}
+
+.header-content {
+    display: flex;
+    margin-top: 119px;
+}
+
+.header-text h1 {
+    padding-bottom: 31px;
+    color: #0D4C93;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 4.5px;
+}
+
+.header-text p {
+    width: 680px;
+    height: 163px;
+    color: #363535;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 43px;
+}
+.header-content-img{
+    position: relative;
+}
+.before{
+    z-index: -122;
+    left: 150px;
+    top: 50px;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    border: 70px solid rgb(219, 233, 237);
+}

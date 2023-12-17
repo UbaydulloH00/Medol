@@ -1,0 +1,91 @@
+.footer-wrapper {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-image: url('../img/bg-footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightgray(50%);
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item div h1 {
+    color: #595959;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 1.04px;
+}
+
+.footer-item div p {
+    color: #595959;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.64px;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer-title {
+    width: 50%;
+}
+
+.footer-cotact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-localtion {
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-conatct,
+.footer-gmail {
+    width: 50%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.icon {
+    padding: 12px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+}
+
+.icon svg {
+    text-align: center;
+}
+
+.footer-cotact button {
+    padding: 10px;
+}
+
+.footer-logo {
+    margin-top: 60px;
+    display: flex;
+    gap: 37px;
+}
+
+.footer-logo p {
+    color: #585858;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+    letter-spacing: 0.72px;
+}
